@@ -1,0 +1,15 @@
+export const locales = {
+  "menuButtonLabel": "Menú del sitio",
+  "menuText": "MENU",
+  "searchButtonLabel": "Buscar en Tiendanimal store",
+  "logoAlt": "Tiendanimal logo",
+  "profileButtonLabel": "Mi perfil",
+  "cartButtonLabel": "2 elementos en el carrito",
+  "myDataNav": "Mis datos",
+  "myTasksNav": "Mis tareas",
+  "myReturnsNav": "Mis devoluciones",
+  "myCommunicationsNav": "Mis comunicaciones",
+  "myBestFriendsNav": "Mis mejores amigos",
+  "myDataTitle": "Mis datos",
+  "formPlaceholder": "Form"
+}
