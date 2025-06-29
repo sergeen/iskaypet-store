@@ -1,0 +1,8 @@
+.section {
+  padding: calc(var(--spacing) * 2) var(--spacing) var(--spacing);
+  h1 {
+    font-size: 20px;
+    font-weight: var(--font-weight-bold);
+    color: var( --color-neutral-60);
+  }
+}

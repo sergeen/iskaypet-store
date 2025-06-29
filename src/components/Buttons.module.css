@@ -1,0 +1,32 @@
+/* LOS BUTTON TIENEN 25 de alto ?*/
+
+.button-search {
+  margin-left: 20px;
+}
+
+.button-cart {
+  position: relative;
+  padding: 4px 5px 0 0;
+  margin-left: 22px;
+}
+
+.button-menu {
+  p {
+    font-size: 8px;
+  }
+}
+
+.button-cart__counter {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 14px;
+  height: 14px;
+  background-color: var(--color-accent);
+  color: #fff;
+  font-size: 11px;
+  border-radius: 50%;
+}
