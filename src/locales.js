@@ -11,5 +11,8 @@ export const locales = {
   "myCommunicationsNav": "Mis comunicaciones",
   "myBestFriendsNav": "Mis mejores amigos",
   "myDataTitle": "Mis datos",
-  "formPlaceholder": "Form"
+  "formPlaceholder": "Form",
+  "name" : "Nombre",
+  "phoneNumber" : "Teléfono",
+  "email" : "Email",
 }

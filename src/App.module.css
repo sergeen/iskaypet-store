@@ -31,6 +31,8 @@
   --color-accent: #cc3872;
   --color-neutral-1: #F4F4F4;
   --color-neutral-10: #DBDBDB;
+  --color-neutral-20: #B3B3B3;
+  --color-neutral-30: #C9C9C9;
   --color-neutral-60: #555555;
   --color-primary: #639605;
   --color-white: #fff;
@@ -44,5 +46,5 @@
 .layout {
   background-color: var(--color-neutral-1);
   font-family: var(--font-family);
-  height: 100vh;
+  min-height: 100%;
 }
