@@ -4,5 +4,25 @@
   width: 100%;
   background-color: #2C2C2CC3;
   z-index: var(--z-index-max);
-  padding: 24px var(--spacing);
+  padding: 27px var(--spacing);
+}
+
+.modal-content {
+  padding: 14px 18px 24px 18px;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.modal-content-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 38px;
+  button {
+    margin-bottom: 10px;
+  }
+  h2 {
+    margin-top: 10px;
+    color: var(--color-neutral-80);
+    font-size: 20px;
+  }
 }

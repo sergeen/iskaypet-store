@@ -2,14 +2,25 @@ import { Show } from 'solid-js';
 
 import styles from './App.module.css';
 
-import Form from './components/Form.jsx';
-import Header from './components/Header.jsx';
-import Modal from './components/Modal.jsx';
-import NavBar from './components/NavBar.jsx';
-import Section from './components/Section.jsx';
+import {
+  Form,
+  Header,
+  MainContent,
+  Modal,
+  NavBar,
+} from './components';
 
+import {
+  BestFriends,
+  Communications,
+  Returns,
+  Tasks,
+  UserData,
+} from './scenes';
 
 function App() {
+  // TODO: por ahora hacer un Lifthing up del estado es suficiente.
+
   return (
     <div class={styles.layout}>
       <Show when={false}>
@@ -19,11 +30,16 @@ function App() {
       </Show>
       <Header />
       <NavBar />
-      <main>
-        <Section />
-      </main>
+      <MainContent>
+        <UserData />
+      </MainContent>
     </div>
   );
 }
 
 export default App;
+
+/*
+  entonces necesito que el form tenga los estilos de la misma forma que el modal
+  entonces tengo que tener
+*/

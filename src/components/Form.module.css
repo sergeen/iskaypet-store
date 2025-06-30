@@ -1,14 +1,11 @@
 form {
-  padding: 28px 18px;
-  border-radius: 4px;
-  background-color: white;
   font-size: 14px;
   display: flex;
   flex-direction: column;
 
   label {
     margin: 24px 0 6px 0;
-    color: var(--color-neutral-60);
+    color: var(--color-neutral-80);
 
     &:first-child {
       margin-top: 0;
@@ -27,6 +24,11 @@ form {
     &::placeholder {
       font-size: 14px;
       color: var(--color-neutral-20);
+    }
+
+    &:focus {
+      border: 1px solid var(--color-neutral-60);
+      outline: none;
     }
   }
 

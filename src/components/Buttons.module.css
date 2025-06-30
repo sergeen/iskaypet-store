@@ -32,25 +32,32 @@
 }
 
 .button {
-  border: none;
   background-color: transparent;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: transparent;
+  font-weight: var(--font-weight-semibold);
 }
 
+/* Size related */
+.button__large {
+  padding: 9px;
+  font-size: 16px;
+}
+
+.button__medium {
+  padding: 4px;
+  font-size: 15px;
+}
+
+/* Color related */
 .button__primary {
   background-color: var(--color-primary);
-  border-radius: 5px;
-  padding: 12px;
-  font-weight: var(--font-weight-bold);
-  font-size: 16px;
   color: #fff;
 }
 
 .button__secondary {
   background-color: #fff;
-  border-radius: 5px;
-  padding: 12px;
-  font-weight: var(--font-weight-bold);
-  font-size: 16px;
   color: var(--color-neutral-20);
 }
 
@@ -60,6 +67,7 @@
 }
 
 .buttons-container__double {
+  margin-top: var(--spacing);
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 21px;

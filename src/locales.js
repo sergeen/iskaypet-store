@@ -16,4 +16,6 @@ export const locales = {
   "phoneNumber" : "Teléfono",
   "profileButtonLabel": "Mi perfil",
   "searchButtonLabel": "Buscar en Tiendanimal store",
+  "addTask" : "Añadir tarea",
+  "closeIcon" : "Close icon",
 }

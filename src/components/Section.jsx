@@ -1,12 +1,13 @@
-import PanelStyles from './Section.module.css';
+import SectionStyles from './Section.module.css';
 import { locales } from '../locales';
-import Form from './Form';
 
-function Section() {
+function Section({ children }) {
   return (
-    <section class={PanelStyles['section']}>
+    <section class={SectionStyles['section']}>
       <h1>{locales.myDataTitle}</h1>
-      <Form />
+      <div class={SectionStyles['section-content']}>
+        {children}
+      </div>
     </section>
   )
 }
