@@ -7,3 +7,4 @@ export { default as NavBar } from './NavBar.jsx';
 export { default as NavBarItem } from './NavBarItem.jsx';
 export { default as Section } from './Section.jsx';
 export { default as TaskList } from './TaskList.jsx';
+export { default as TaskListItem } from './TaskListItem.jsx';

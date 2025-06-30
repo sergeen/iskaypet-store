@@ -18,4 +18,8 @@ export const locales = {
   "searchButtonLabel": "Buscar en Tiendanimal store",
   "addTask" : "Añadir tarea",
   "closeIcon" : "Close icon",
+  "taskTitle" : "Tìtulo tarea",
+  "taskDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris, ac elementum ultrices mauris. Cursus urn& vehicula nisi aliquam pulvinar sit interdum eget ac. Rhoncus et nunc, aliquam, ac faucibus odio porta diam lorem. Dictum amet malesuada dictum tristique sollicitudin sed sagittis.",
+  "noTaskTitle" : "Sin título",
+  "noTaskDescription" : "Sin descripción",
 }

@@ -1,9 +1,9 @@
 import TaskListStyles from './TaskList.module.css';
 
-function TaskList() {
+function TaskList({ children }) {
   return (
     <div class={TaskListStyles['task-list']}>
-      TaskList
+      {children}
     </div>
   )
 }
