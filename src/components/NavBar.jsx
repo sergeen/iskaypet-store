@@ -1,38 +1,46 @@
+import { A } from "@solidjs/router";
 import { locales } from "../locales";
 import NavBarStyles from "./NavBar.module.css";
 
 function NavBar() {
   return (
     <nav class={NavBarStyles['nav-bar']}>
-      <button
-        type="button"
-        class={NavBarStyles['nav-bar__item']}
-        classList={{
-          [NavBarStyles['nav-bar__item--active']]: true,
-        }}
-        aria-current="page">
+      <A
+        href="/user-data"
+        class={`${NavBarStyles['nav-bar__item']}`}
+        activeClass={NavBarStyles['nav-bar__item--active']}
+        end={true} // Ensures this link is only active for the exact path
+      >
         {locales.myDataNav}
-      </button>
-      <button
-        type="button"
-        class={NavBarStyles['nav-bar__item']}>
+      </A>
+      <A
+        href="/tasks"
+        class={`${NavBarStyles['nav-bar__item']}`}
+        activeClass={NavBarStyles['nav-bar__item--active']}
+      >
         {locales.myTasksNav}
-      </button>
-      <button
-        type="button"
-        class={NavBarStyles['nav-bar__item']}>
+      </A>
+      <A
+        href="/returns"
+        class={`${NavBarStyles['nav-bar__item']}`}
+        activeClass={NavBarStyles['nav-bar__item--active']}
+      >
         {locales.myReturnsNav}
-      </button>
-      <button
-        type="button"
-        class={NavBarStyles['nav-bar__item']}>
+      </A>
+      <A
+        href="/communications"
+        class={`${NavBarStyles['nav-bar__item']}`}
+        activeClass={NavBarStyles['nav-bar__item--active']}
+      >
         {locales.myCommunicationsNav}
-      </button>
-      <button
-        type="button"
-        class={NavBarStyles['nav-bar__item']}>
+      </A>
+      <A
+        href="/best-friends"
+        class={`${NavBarStyles['nav-bar__item']}`}
+        activeClass={NavBarStyles['nav-bar__item--active']}
+      >
         {locales.myBestFriendsNav}
-      </button>
+      </A>
     </nav>
   )
 }

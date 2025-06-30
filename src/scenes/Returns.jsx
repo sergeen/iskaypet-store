@@ -1,8 +1,8 @@
-import UserDataStyles from './Returns.module.css';
+import ReturnsStyles from './Returns.module.css';
 function Returns() {
   return (
     <div class={ReturnsStyles['returns']}>
-      user data
+      Returns
     </div>
   )
 }

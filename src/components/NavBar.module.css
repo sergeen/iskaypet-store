@@ -24,6 +24,8 @@
   transition: color 0.2s ease;
   font-weight: var(--font-weight-semibold);
   padding: 4px 18px 14px 18px;
+  text-decoration: none;
+  color: var(--text-neutral-80)
 }
 
 .nav-bar__item--active {

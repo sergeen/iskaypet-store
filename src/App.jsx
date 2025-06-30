@@ -1,3 +1,4 @@
+import { Route } from "@solidjs/router";
 import { Show } from 'solid-js';
 
 import styles from './App.module.css';
@@ -5,6 +6,7 @@ import styles from './App.module.css';
 import {
   Form,
   Header,
+  Layout,
   MainContent,
   Modal,
   NavBar,
@@ -19,10 +21,9 @@ import {
 } from './scenes';
 
 function App() {
-  // TODO: por ahora hacer un Lifthing up del estado es suficiente.
 
   return (
-    <div class={styles.layout}>
+    <Layout>
       <Show when={false}>
         <Modal>
           <Form type={'task'}></Form>
@@ -31,9 +32,15 @@ function App() {
       <Header />
       <NavBar />
       <MainContent>
-        <UserData />
+        {/* Default route and explicit route */}
+        <Route path="/" component={UserData} />
+        <Route path="/user-data" component={UserData} />
+        <Route path="/tasks" component={Tasks} />
+        <Route path="/returns" component={Returns} />
+        <Route path="/communications" component={Communications} />
+        <Route path="/best-friends" component={BestFriends} />
       </MainContent>
-    </div>
+    </Layout>
   );
 }
 
