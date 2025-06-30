@@ -44,3 +44,23 @@
   font-size: 16px;
   color: #fff;
 }
+
+.button__secondary {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 12px;
+  font-weight: var(--font-weight-bold);
+  font-size: 16px;
+  color: var(--color-neutral-20);
+}
+
+.buttons-container {
+  display: grid;
+  margin-top: 40px;
+}
+
+.buttons-container__double {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 21px;
+}

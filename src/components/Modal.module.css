@@ -1,0 +1,8 @@
+.modal {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: #2C2C2CC3;
+  z-index: var(--z-index-max);
+  padding: 24px var(--spacing);
+}

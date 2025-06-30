@@ -1,11 +1,12 @@
 import ModalStyles from './Modal.module.css';
 
-function Modal() {
+function Modal({children}) {
   return (
     <div
       class={ModalStyles['modal']}
       role="dialog"
-      aria-hidden="true">
+      aria-hidden="false">
+        {children}
     </div>
   )
 }

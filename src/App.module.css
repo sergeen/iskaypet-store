@@ -41,6 +41,7 @@
   --font-weight-regular: 400;
   --font-weight-semibold: 600;
   --spacing: 18px;
+  --z-index-max: 999;
 }
 
 .layout {
