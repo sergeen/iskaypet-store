@@ -5,26 +5,30 @@
   padding: var(--spacing) 15px;
   display: flex;
   justify-content: space-between;
-}
 
-button {
-  height: 100%;
-  width: 18px;
-  border: none;
-  background-color: transparent;
-}
+  button {
+    height: 100%;
+    width: 18px;
+    border: none;
+    background-color: transparent;
+  }
 
-h2 {
-  color: var( --color-neutral-80);
-  font-size: 16px;
-}
+  h2 {
+    color: var(--color-neutral-80);
+    font-size: 16px;
+  }
 
-p {
-  color: var(--color-neutral-40);
-  font-size: 12px;
-  min-height: 2rem;
-  display: -webkit-box;               /* Required for line clamp */
-  -webkit-line-clamp: 2;              /* Max number of lines */
-  -webkit-box-orient: vertical;       /* Required for vertical flow */
-  overflow: hidden;                   /* Hide overflow */
+  p {
+    color: var(--color-neutral-40);
+    font-size: 12px;
+    min-height: 2rem;
+    display: -webkit-box;
+    /* Required for line clamp */
+    -webkit-line-clamp: 2;
+    /* Max number of lines */
+    -webkit-box-orient: vertical;
+    /* Required for vertical flow */
+    overflow: hidden;
+    /* Hide overflow */
+  }
 }
